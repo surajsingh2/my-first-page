@@ -190,7 +190,7 @@ ul.sub-menu li a {
 .banner-text {
     position: absolute;
     text-align: center;
-    top: 290px;
+    top: 100px;
     left: 200px;
     color: #fff;
     font-size: 16px;
@@ -199,14 +199,26 @@ ul.sub-menu li a {
     font-weight: bold;
 }
 
+.banner-text .content {
+    padding: 10px 20px;
+    width: 550px;
+    font-size: 14px;
+    text-transform: none;
+    font-weight: normal;
+    background: #00000090;
+    border-radius: 10px;
+    margin-bottom: 35px;
+}
+.banner-text div a {
+    border-radius: 10px;
+}
 .view-portfolio {
     display: inline-block;
     width: 300px;
 }
 .view-portfolio a {
     padding: 20px 40px;
-    
-    background: #000;
+    background: #00000090;
 }
 .contact-us {
     display: inline-block;
@@ -215,7 +227,7 @@ ul.sub-menu li a {
 .contact-us a {
     padding: 20px 40px;
     
-    background: #000;
+    background: #00000090;
 }
 .banner-text a:hover {
     background: #fff;
