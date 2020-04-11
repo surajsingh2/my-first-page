@@ -123,6 +123,7 @@ footer ul li a:hover {
 
 a {
     color: inherit;
+    text-decoration: none;
 }
 
 header {
@@ -175,4 +176,48 @@ ul.sub-menu li {
 }
 ul.sub-menu li a {
     padding: 10px 0;
+}
+
+.banner {
+    height: 600px;
+    position: relative;
+    top: 0;
+    margin: 20px 0;
+    background: url(../images/banner-1.jpg) no-repeat;
+    background-size: cover;
+}
+
+.banner-text {
+    position: absolute;
+    text-align: center;
+    top: 290px;
+    left: 200px;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.view-portfolio {
+    display: inline-block;
+    width: 300px;
+}
+.view-portfolio a {
+    padding: 20px 40px;
+    
+    background: #000;
+}
+.contact-us {
+    display: inline-block;
+    width: 250px;
+}
+.contact-us a {
+    padding: 20px 40px;
+    
+    background: #000;
+}
+.banner-text a:hover {
+    background: #fff;
+    color: #000;
 }
