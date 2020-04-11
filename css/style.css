@@ -89,3 +89,90 @@ body{
         flex: 100%;
     }
 }
+
+
+footer {
+    padding: 40px;
+    text-align: center;
+    color: #2c3e50;
+    background: #ccc;
+}
+footer ul {
+    margin: 0;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline-block;
+    padding: 0 5px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #2c3e50;
+    padding: 5px 10px;
+    border: 1px solid #2c3e50;
+    border-radius: 50%;
+    transition: 0.5s linear;
+}
+
+footer ul li a:hover {
+    background: #2c3e50;
+    color: #fff;
+}
+
+a {
+    color: inherit;
+}
+
+header {
+    padding: 25px;
+    background: #2c3e50;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.logo a i {
+    font-size: 50px;
+}
+.menu {
+    position: relative;
+    top: 30px;
+}
+.menu ul li {
+    display: inline-block;
+    text-transform: uppercase;
+    
+}
+
+.menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 15px;
+    border-bottom: 4px solid transparent;
+}
+
+.menu ul li a:hover {
+    border-bottom: 4px solid #fff;
+}
+
+.menu ul li:hover ul.sub-menu{
+    display: block;
+}
+
+ul.sub-menu {
+    margin-top: 10px;
+    padding: 5px 20px;
+    display: none;
+    background: #2c3e50;
+    position: absolute;
+    z-index: 1;
+}
+ul.sub-menu li {
+    display: block;
+    padding: 10px 0;
+}
+ul.sub-menu li a {
+    padding: 10px 0;
+}
